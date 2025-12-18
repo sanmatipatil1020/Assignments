@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assignment_3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="login-form" id="form">
+            <h1 class="heading">Login</h1>
+
+            <label for="email" class="label">Email address:</label>
+            <input id="email" type="email" placeholder="Enter email" class="input" required>
+            <p id="email-error"></p>
+
+            <label for="pass" class="label">Password:</label>
+            <input id="pass" type="password" placeholder="Password" class="input">
+            <p id="pass-error"></p>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+    <script src="form_validate.js"></script>
+</body>
+</html>
