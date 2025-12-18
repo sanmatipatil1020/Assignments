@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Registration Form</title>
+</head>
+<body>
+
+    <img src="sunbeam.png" style="margin-left:350px;">
+
+    <h1 style="text-align: center;">Sunbeam Registration Form</h1><br>
+
+    <img src="download1.jpeg" style="height: 350px; float:left; margin-left:100px;">
+
+    
+    <form style="float:left; margin-left:80px; margin-top:20px;">
+
+        <h4>Name:
+            <input type="text" name="name" style="width:250px; height:25px;">
+        </h4>
+
+        <h4>Birthdate:
+            <input type="date" name="dob" style="width:250px; height:25px;">
+        </h4>
+
+        <h4>Email:
+            <input type="email" name="email" style="width:250px; height:25px;">
+        </h4>
+
+        <h4>Address:
+            <input type="text" name="address" 
+                placeholder="Sunbeam Institute of IT, Karad..."
+                style="height:40px; width:350px;">
+        </h4>
+
+        <h4>Gender:
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female"> Female
+        </h4>
+
+        <h4>Upload photo:
+            <input type="file" name="photo" accept=".png,.jpeg">
+        </h4>
+
+        <h4>Select your course:
+            <select name="course" style="width:150px; height:30px;">
+                <option disabled selected hidden>Select course</option>
+                <option>MERN</option>
+                <option>Java</option>
+                <option>GenAI</option>
+                <option>WebPython</option>
+            </select>
+        </h4>
+
+        <h4>Skill Set:
+            <input type="checkbox" name="skills" value="Java"> Java
+            <input type="checkbox" name="skills" value="CPP"> CPP
+            <input type="checkbox" name="skills" value="OS"> OS
+        </h4>
+
+        <h4>
+            <input type="submit" value="Register" onclick="alert('Registration Successful!')">
+
+            <input type="reset" value="Clear">
+            
+        </h4>
+
+    </form>
+    
+
+</body>
+</html>
